@@ -1,0 +1,203 @@
+/* Full-page center wrapper */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+  padding: 10px;
+}
+
+/* Registration box */
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  max-width: 95vw;
+  box-sizing: border-box;
+}
+
+/* Title */
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Labels */
+.form-box label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #444;
+}
+
+/* Inputs */
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+/* Input focus effect */
+.form-box input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 12px;
+  margin: 3px 0 0 2px;
+}
+
+/* Register button */
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background 0.2s ease;
+}
+
+/* Hover state */
+.form-box button:hover {
+  background-color: #218838;
+}
+
+/* Login link */
+.switch-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.switch-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .form-box {
+    width: 95vw;
+    padding: 20px;
+  }
+
+  .form-box h2 {
+    font-size: 20px;
+  }
+
+  .form-box input,
+  .form-box button {
+    font-size: 14px;
+  }
+
+  .form-box label {
+    font-size: 14px;
+  }
+}
+
+.show-password {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  margin: 10px 0 20px;
+  color: #333;
+}
+
+
+.show-password input[type="checkbox"] {
+  margin: 0;
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #004080;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-btn {
+  padding: 0.4rem 0.8rem;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #008dd6;
+}
+
