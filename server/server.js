@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
 // Load User model
-const User = require("./models/User");
+const User = require("./models/user");
 
 const app = express();
 
